@@ -5,7 +5,7 @@ from selenium import webdriver
 
 class TestNotClickable(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Firefox()
         self.driver.maximize_window()
         self.driver.implicitly_wait(3)
 
